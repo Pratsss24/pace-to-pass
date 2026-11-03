@@ -317,9 +317,10 @@ src/pace.py                  free-air pace, dirty air, split-half reliability
 src/passing.py               the hazard, the episode model, the thresholds
 src/linear.py                least squares and logit, cluster-robust
 src/charts.py                six figures
-src/report.py                one self-contained HTML file
+src/report.py                the printable PDF report
+src/paper.py                 A4 page composition
 tests/test_pace_to_pass.py   31 tests
-out/                         figures, report.html, _run.txt
+out/                         figures, report.pdf, _run.txt
 ```
 
 ```bash

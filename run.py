@@ -208,7 +208,7 @@ def main() -> None:
         trust=trust, timing=timing, shuffle=shuffle, joint=joint,
         rows=rows, field=field, mean_gap=mean_gap, threshold=threshold,
         episodes=episodes, seasons=SEASONS, figures=figures,
-        out_path=OUT / "report.html")
+        out_path=OUT / "report.pdf")
 
     say()
     say(f"report  {path}")
